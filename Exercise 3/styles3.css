@@ -1,0 +1,50 @@
+.Container{  
+    display: flex;
+    flex-direction: row;
+}
+ 
+.item {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.navbar:hover {
+    background-color: #333;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
