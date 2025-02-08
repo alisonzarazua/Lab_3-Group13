@@ -19,20 +19,30 @@
 }
 
 .navbar {
+    background-color: rgb(78, 78, 78);
     display: flex;
     padding: 10px;
     margin: 10px;
 }
 
 .navbar a {
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 .navbar:hover {
     background-color: #333;
+    color: white;    
+}
+
+.navitem:hover {
+    background-color: #bdbbbb;
     color: white;
+    border: 2px solid #bdbbbb;
+    border-radius: 5px;
+    
 }
 
 .dropdown-content {
@@ -46,5 +56,3 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
